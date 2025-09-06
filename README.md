@@ -1,5 +1,5 @@
-# ConnorSu-YouTube-download-configuration
-My own personal yt-dlp configuration
+# ConnorSu_yt-dlp_win_config
+My own personal yt-dlp configuration to download ie. YouTube videos
 油管下载最清晰视频+音频，多数基本上是AV1+OPUS，下载一个自动en.srt字幕封装成mkv，带章节（如有），带缩略图（如有）：
 yt-dlp -f bestvideo+bestaudio --merge-output-format mkv --write-subs --write-auto-subs --embed-subs --convert-subs srt --embed-thumbnail --add-metadata --embed-chapters -o "%(title)s.%(ext)s" 视频链接或列表
 
