@@ -21,3 +21,9 @@ subtitle-overlap-fixersu
 下载release中的压缩包，解压到你想要的路径
 然后双击运行点击运行命令提示符 Click to open CMD here.bat进入命令提示符
 接着按照一些有用的CMD命令.txt，复制你想要下载的比如Youtube链接，将完整yt-dlp代码粘贴进CMD，即可下载
+
+鸣谢：
+yt-dlp项目
+ffmpeg项目
+nimatrueway/subtitle-overlap-fixer.go项目
+ConnorSu
