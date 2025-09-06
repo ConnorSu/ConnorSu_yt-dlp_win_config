@@ -16,3 +16,8 @@ P站：yt-dlp --format "bestvideo+bestaudio/best" --merge-output-format mp4 --ad
 
 关于处理油管自动生成字幕中重叠的问题，请参考 https://github.com/ConnorSu/subtitle-overlap-fixersu
 subtitle-overlap-fixersu 
+
+使用方法：
+下载release中的压缩包，解压到你想要的路径
+然后双击运行点击运行命令提示符 Click to open CMD here.bat进入命令提示符
+接着按照一些有用的CMD命令.txt，复制你想要下载的比如Youtube链接，将完整yt-dlp代码粘贴进CMD，即可下载
