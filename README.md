@@ -7,7 +7,7 @@ yt-dlp -f bestvideo+bestaudio --merge-output-format mkv --write-subs --write-aut
 yt-dlp --skip-download --write-subs --write-auto-subs --sub-lang zh-Hans,en-US --convert-subs srt -o "%(title)s.%(ext)s" 视频链接
 
 油管只下载zh-Hans简体中文字幕
-yt-dlp --skip-download --write-subs --write-auto-subs --sub-lang zh-Hans --convert-subs srt 视频链接
+yt-dlp --skip-download --write-subs --write-auto-subs --sub-lang zh-Hans --convert-subs srt -o "%(title)s.%(ext)s" 视频链接
 
 油管单纯检测有多少字幕，找到之后可以去替换下载字幕里的语言代码
 yt-dlp --list-subs 视频链接
